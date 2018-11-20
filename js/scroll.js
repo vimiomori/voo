@@ -5,7 +5,7 @@ $(document).ready(
             interstitialSection : ".footer",
             easing: "easeOutExpo",
             scrollSpeed: 1000,
-            offset : 100,
+            offset : 0,
             scrollbars: true,
             standardScrollElements: "",
             before:function() {},
