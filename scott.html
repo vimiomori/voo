@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.js" async></script>
     <script src="./js/plugins/Scrollify/jquery.scrollify.js"></script>
     <script src="./js/scroll.js"></script>
-    <script src="./js/animations.js"></script>s
+    <script src="./js/animations.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.css">
     <link rel="stylesheet" type="text/css" href="./css/scott.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Scott</title>
@@ -27,22 +29,22 @@
             <h2>Gallary</h2>
             <div class="gallery">
               <a href="./images/gallary/Descending-Again.jpg" data-caption="Descending Again 2015">
-                  <img src="./images/gallary/Descending-Again.jpg" alt="Descending Again">
+                  <img width="150px" src="./images/gallary/Descending-Again.jpg" alt="Descending Again">
               </a>
               <a href="./images/gallary/Far-Off.jpg" data-caption="Far Off 2015">
-                  <img src="./images/gallary/Far-Off.jpg" alt="Far Off">
+                  <img width="150px" src="./images/gallary/Far-Off.jpg" alt="Far Off">
               </a>
               <a href="./images/gallary/Untitled 1.jpg" data-caption="Untitles 2015">
-                  <img src="./images/gallary/Untitled 1.jpg" alt="Untitles">
+                  <img width="150px" src="./images/gallary/Untitled 1.jpg" alt="Untitles">
               </a>
               <a href="./images/gallary/untitled_2.jpg" data-caption="Untitled 2014">
-                  <img src="./images/gallary/untitled_2.jpg" alt="Untitled">
+                  <img width="150px" src="./images/gallary/untitled_2.jpg" alt="Untitled">
               </a>
               <a href="./images/gallary/Untitled.jpg" data-caption="Untitled 2014">
-                  <img src="./images/gallary/Untitled.jpg" alt="Untitled">
+                  <img width="150px" src="./images/gallary/Untitled.jpg" alt="Untitled">
               </a>
               <a href="./images/gallary/VIhrxXZ.jpg" data-caption="Untitled 2013">
-                  <img src="./images/gallary/VIhrxXZ.jpg" alt="Untitled">
+                  <img width="150px" src="./images/gallary/VIhrxXZ.jpg" alt="Untitled">
               </a>
           </div>
           </div>
@@ -75,11 +77,11 @@
     </section>
 
     <section class="section footer">
-            <p id="credit">Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
-            <p id="credit">Icons made by <a href="https://www.flaticon.com/authors/iconnice" title="Iconnice">Iconnice</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
             <p id="credit">Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
-
     </section>
+    <script>
+        baguetteBox.run('.gallery');
+    </script>
 
 </body>
 </html>

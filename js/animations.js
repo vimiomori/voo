@@ -6,5 +6,6 @@ $(document).ready(
         $(".arrow").css("display", "none");
         $("#intro").fadeIn(1500);
         $(".arrow").fadeIn(1500);
+        baguetteBox.run('.gallery');
     }
 );
