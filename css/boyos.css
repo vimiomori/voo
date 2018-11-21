@@ -35,14 +35,6 @@ p{
     background-size: cover
 }
 
-.intro.scott{
-    background: url('../images/Untitled-header.jpg');
-}
-
-.intro.lea{
-    background: url('../images/pexels-photo-257904.jpeg');
-}
-
 .intro::before{
     position:absolute;
     content: "";
@@ -56,15 +48,16 @@ p{
     height: 100%;
     display: table-cell;
     text-align: center;
-}
-
-.header{
     vertical-align:middle;
 }
 
+/* .header{
+    vertical-align:middle;
+} */
+/* 
 .inside{
     padding-top: 2rem;
-}
+} */
 
 .button {
     display: block;
