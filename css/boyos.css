@@ -4,12 +4,12 @@
     --button-hover-color: rgba(92, 92, 92, 0.3);
   }
 
-
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Exo 2', arial;
+    font-family: 'Exo 2' , arial;
     background: #0b151a;
+    color: #fff;
 }
 
 section{
@@ -18,10 +18,29 @@ section{
     height: 100%;
 }
 
+section h2{
+    font-size: 4em;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
 .intro{
-    background: url('../images/pexels-photo-257904.jpeg');
     background-position: center center no-repeat;
     background-size: cover
+}
+
+.intro.scott{
+    background: url('../images/Untitled-header.jpg');
+}
+
+.intro.lea{
+    background: url('../images/pexels-photo-257904.jpeg');
 }
 
 .intro::before{
@@ -44,20 +63,32 @@ section{
 }
 
 .inside{
-    padding-top: 2rem;;
+    padding-top: 2rem;
 }
 
-p{
-    font-family: 'Exo 2';
+.button {
+    display: block;
+    position: absolute;
+    left: 13%;
+    top: 8%;
+    height: 2rem;
+    padding-top: 0.9em;
+    width: 15rem;
+    text-align: center;
     color: #fff;
-}
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: translateX(-50%);
+  }
 
-h1{
-    font-family: 'Exo 2';
-    color: #fff;
-}
+.button:hover {
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
+  }
 
-#intro{
+ #intro{
     z-index: 1;
     position: relative;
     margin:0;
@@ -70,25 +101,30 @@ img#intro{
     width: 3rem;
 }
 
-
-.content{
-    font-size: 4em;
-}
-
 .about{
     font-size: 1.5rem;
 }
 
+.text-box{
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+  
+}
 .footer{
     height:200px;
     font-size: 1rem;
+}
+
+.gallery{
+    padding-top: 2em;
 }
 
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
-  }
+ }
 
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
