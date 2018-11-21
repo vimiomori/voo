@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Exo+2");
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Lato:100,300,400");
+
+:root {
+    --button-hover-color: rgba(92, 92, 92, 0.3);
+  }
+
 
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Exo 2' arial;
+    font-family: 'Exo 2', arial;
     background: #0b151a;
 }
 
@@ -84,7 +89,7 @@ img#intro{
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
   }
-  
+
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
