@@ -47,38 +47,15 @@ section{
     padding-top: 2rem;;
 }
 
-.button {
-    display: block;
-    position: absolute;
-    left: 13%;
-    top: 8%;
-    height: 2rem;
-    padding-top: 0.9em;
-    width: 15rem;
-    text-align: center;
-    color: #fff;
-    border: #fff solid 0.2rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    transform: translateX(-50%);
-  }
-
-.button:hover {
-    background-color: var(--button-hover-color);
-    border-color: var(--button-hover-color);
-  }
-
 p{
-
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo 2';
     color: #fff;
-    font-size: 22px;
-    font-weight: 100;
-
 }
 
-
+h1{
+    font-family: 'Exo 2';
+    color: #fff;
+}
 
 #intro{
     z-index: 1;
@@ -94,8 +71,7 @@ img#intro{
 }
 
 
-
-.content h2{
+.content{
     font-size: 4em;
 }
 
