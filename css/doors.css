@@ -71,7 +71,8 @@
   }
 
   .split.left .button:hover {
-    background-color: var(--left-button-hover-color);
+    background-color: #fff;
+    color: black;
     border-color: var(--left-button-hover-color);
   }
   
