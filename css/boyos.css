@@ -30,9 +30,16 @@ p{
 
 }
 
+/* .intro.lea{
+    background: url('../images/pexels-photo-257904.jpeg');
+} */
 .intro{
     background-position: center center no-repeat;
     background-size: cover
+}
+
+.intro.scott{
+    background: url('../images/Untitled-header.jpg');
 }
 
 .intro::before{
@@ -51,13 +58,6 @@ p{
     vertical-align:middle;
 }
 
-/* .header{
-    vertical-align:middle;
-} */
-/* 
-.inside{
-    padding-top: 2rem;
-} */
 
 .button {
     display: block;
